@@ -216,9 +216,9 @@ $P_{ОФД}$ – стоимость закупки чековых продаж �
 
 Метрика – MAPE, R2. 
 
-$$MAPE=\frac{1}{N}\displaystyle\sum_{i=1}^{N}|{\frac{\hat{y}_{i}-y_{i}}{y_{i}}}|$$
+$$MAPE=\frac{1}{N}\displaystyle\sum_{i=1}^{N}|{\frac{\hat{y_{i}}-y_{i}}{y_{i}}}|$$
 
-$$R^2=1-\frac{\displaystyle\sum_{i=1}^{N}({\hat{y}_{i} - {y}_{i}})^2}{\displaystyle\sum_{i=1}^{N}({\overline{y}_{i} - {y}_{i}})^2}$$
+$$R^2 = 1- \frac{\displaystyle\sum_{i=1}^{N}(\hat{y_{i}} - y_{i})^2}{\displaystyle\sum_{i=1}^{N}(\overline{y_{i}} - y_{i})^2}$$
 
 $\overline{y}_{i}$ – средние значение среднемесячных продаж за 6 месяцев в магазине
 
